@@ -1,8 +1,8 @@
 # Functions with input
 
-# def greet_with_name(name):
-#     print(f"Hello {name}")
-#     print(f"How do you do {name}?")
+# def greet_with_name(name_of_user):
+#     print(f"Hello {name_of_user}")
+#     print(f"How do you do {name_of_user}?")
 #
 #
 # greet_with_name("Jack Bauer")

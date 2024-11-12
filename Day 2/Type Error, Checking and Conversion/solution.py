@@ -16,10 +16,10 @@ int()
 float()
 bool()
 
-name_of_the_user = input("Enter your name")
+name_of_the_user = input("Enter your name_of_user")
 length_of_name = len(name_of_the_user)
 
-print(type("Number of letters in your name: "))  # str
+print(type("Number of letters in your name_of_user: "))  # str
 print(type(length_of_name))  # int
 
-print("Number of letters in your name: " + str(length_of_name))
+print("Number of letters in your name_of_user: " + str(length_of_name))
