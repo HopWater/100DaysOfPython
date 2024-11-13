@@ -22,4 +22,4 @@ elif size == "L" or size == "l":
     if extra_cheese == "Y" or extra_cheese == "y":
         price += 1
 
-print(f"Your final bill is: ${price}. ")
+print(f"Your final bill is: ${price}.")
