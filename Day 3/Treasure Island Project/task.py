@@ -22,3 +22,18 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
+
+direction = (input("Do you want to go left or right"))
+
+if direction != "left":
+    print("Fall into a hole.\nGame Over.")
+
+elif direction == "left":
+    swim = (input("Do you want to swim or wait"))
+
+    if swim != "swim":
+        print("Attacked by trout.\nGame Over.")
+    else:
+        door = print("Good choice\nWhat door do you want to pick?\nRed, Yellow or Blue?")
+
+        door = input()
