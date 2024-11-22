@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -24,3 +26,16 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
+choice = input("Lets play Rock, Paper, Scissors!\nRock = 1 , Paper = 2, Scissors = 3\n")
+
+if choice == 1:
+    print(rock)
+elif choice == 2:
+    print(paper)
+elif choice == 3:
+    print(scissors)
+
+computer_choice = random.randint(1, 3)
+
+print(choice)
